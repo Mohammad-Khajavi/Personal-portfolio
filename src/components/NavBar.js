@@ -66,20 +66,18 @@ export const NavBar = () => {
             </Nav.Link>
             <span className="navbar-text">
               <div className="social-icon">
-                <div className="social-icon">
-                  <a href="#">
-                    <img src={navicon1} alt="" />
-                  </a>
-                  <a href="#">
-                    <img src={navicon2} alt="" />
-                  </a>
-                  <a href="#">
-                    <img src={navicon3} alt="" />
-                  </a>
-                  <button className="vvd" onClick={() => console.log("click")}>
-                    <span>Lets Connect</span>
-                  </button>
-                </div>
+                <a href="#">
+                  <img src={navicon1} alt="" />
+                </a>
+                <a href="#">
+                  <img src={navicon2} alt="" />
+                </a>
+                <a href="#">
+                  <img src={navicon3} alt="" />
+                </a>
+                <button className="vvd" onClick={() => console.log("click")}>
+                  <span>Lets Connect</span>
+                </button>
               </div>
             </span>
           </Nav>
